@@ -1,7 +1,7 @@
 ---
 title: "How We Work"
 date: 2019-04-05T16:35:12+01:00
-description: "Explanation of how we do what we do"
+description: "Enim nisi est non sunt et nulla nostrud velit duis"
 type: "page"
 featured_image: "https://www.infinitaslearning.com/wp-content/uploads/2017/06/xaerial-view-of-laptoop-books-mobile-phone-and-books-on-wooden-table-1920x1080.jpg.pagespeed.ic.5HchhCXkBk.webp"
 draft: true

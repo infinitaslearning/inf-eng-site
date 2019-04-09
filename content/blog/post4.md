@@ -1,13 +1,13 @@
 ---
-title: "Appointment Chief Strategy Officer"
+title: "Adipisicing labore cillum ad nulla ea non est voluptate ut laboris deserunt exercitation."
 date: 2018-01-25T11:23:17+01:00
 draft: true
 featured_image: "https://www.infinitaslearning.com/wp-content/uploads/2018/01/xMechiel-Wilbrink-Pasfoto-400x225.jpg.pagespeed.ic.zOpviZU59X.webp"
 draft: true
 ---
 
-Utrecht, the Netherlands, January 24th, 2018 – Today, Infinitas Learning announces the appointment of Mechiel Wilbrink as Chief Strategy Officer effective this month. Mechiel will be responsible for Corporate Development, the Group Strategy and Transformation.
+Est ea culpa nisi sunt dolore sunt. In sint tempor sit est laborum amet minim sit commodo officia. Reprehenderit aute pariatur nostrud incididunt sint adipisicing adipisicing non mollit. Tempor nulla in sit nulla exercitation dolore.
 
-Mechiel joins from the strategy division of Accenture, where he was Managing Director. He previously was a Partner at OC&C Strategy Consultants. Mechiel has an extensive background in Strategy and Digital transformation.
+Nulla exercitation duis non dolore elit. Ex minim sunt reprehenderit consectetur dolor non amet non Lorem elit ad id aliquip et. Exercitation in esse id laboris eu nisi non. Amet adipisicing mollit eiusmod veniam nostrud ipsum ullamco mollit Lorem dolore consequat proident ex.
 
-José Duarte, Chief Executive Officer Infinitas Learning: “We are very pleased to welcome Mechiel Wilbrink to the Infinitas Learning Executive Leadership team. Mechiel joins a strong and market leading company and with him we will fully seize the opportunities for further growth and development in our dynamic and evaluating markets.
+Sunt laborum culpa consectetur cillum. Non elit aliquip voluptate nulla id elit eu aliquip labore sit enim. Ex id irure eiusmod tempor excepteur tempor sit laborum consectetur exercitation consequat. Velit eu fugiat quis pariatur eiusmod esse in. Duis magna sit exercitation proident esse tempor ex excepteur laborum sint non qui dolore. Est cupidatat eiusmod adipisicing laboris culpa pariatur dolor eu.
