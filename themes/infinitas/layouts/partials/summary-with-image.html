@@ -1,0 +1,18 @@
+{{ $featured_image := .Params.featured_image }}
+<div class="flex-col">
+  <a href="{{ .URL }}" class="post" title="{{.Title}}">
+      {{ if .Params.featured_image }}
+      {{ $featured_image := (trim $featured_image "/") | absURL }}
+    <div class="post-img">
+      <img
+        src="{{ $featured_image }}"
+        alt="Image from {{ .Title }}">
+    </div>
+    {{ end }}
+    <div class="post-content">
+      <h3 class="post-title">{{ .Title }}</h3>
+      <p class="post-meta">Posted on {{ .Date.Format "January 2, 2006" }}</p>
+      <p class="post-excerpt">{{ .Summary}}</p>
+    </div>
+  </a>
+</div>

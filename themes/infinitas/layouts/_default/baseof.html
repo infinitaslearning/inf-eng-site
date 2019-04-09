@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{- partial "head.html" . -}}
+</head>
+
+<body class="home page-template-default page page-id-2">
+    <div class="cookies-notification" data-cookie-hash="842cd99488d59d5f4ff2f0e673ab4b79">
+        <div class="container">
+            <div class="flex-row">
+                <div class="contentwrapper narrow smaller">
+                    <p>
+                        <p>We use cookies to make sure our website works better for the visitor. In addition, we use
+                            cookies for our web statistics.<br />
+                            Read our <a href="http://www.infinitaslearning.com/privacy-policy/">privacy policy</a> for
+                            more information.</p>
+                    </p>
+                </div>
+                <a href="#" class="btn btn-small btn-primary btn-outline close-notification confirm-cookies"
+                    title="Confirm cookies"><i class="fa fa-left fa-check-square-o"></i>I understand</a>
+            </div>
+        </div>
+    </div>
+    {{- partial "header.html" . -}}
+    <!-- Code that all your templates share, like a header -->
+    {{ block "breadcrumb" .}}
+
+        {{ if not .IsHome }}
+        <div class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            <div class="container-fluid">
+                <ol class="breadcrumbs-inner">
+                    
+                    {{ with .Parent}}
+                    <li>
+                        <a href="{{.URL}}" class="page current" title="{{ if .IsHome }}Home{{ else }}{{.Title}}{{ end }}">{{ if .IsHome }}Home{{ else }}{{.Title}}{{ end }}</span></a>
+                    </li>
+                    {{ end }}
+
+                    <li><span class="divider">/</span></li>
+                    <li>
+                        <a href="{{.URL}}" class="page current" title="{{.Title}}">{{.Title}}</span></a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        {{ end}}
+
+  
+    {{ end}}
+    {{ block "main" . }}
+    <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{- partial "footer.html" . -}}
+    {{ end }}
+
+    <script type='text/javascript' src='{{$.Site.BaseURL}}js/app.js.pagespeed.jm.81Cn0S2owI.js'></script>
+</body>
+
+</html>

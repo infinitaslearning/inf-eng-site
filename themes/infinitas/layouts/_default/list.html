@@ -1,0 +1,70 @@
+{{ define "main"}}
+
+<section class="page-section">
+
+  <div class="container">
+
+    <div class="col-md-12 main">
+      <div class="news-results-wrapper">
+        <div class="results-header">
+          <div class="flex-row align-center">
+            <span class="found-results">Found <strong>{{ len .Pages}}</strong> entries</span>
+            <!-- <span class="flex-spacer"></span>
+            <div class="sort-results">
+              <label for="sort_news">Sort on:</label>
+              <div class="select-wrapper">
+                <select name="sort" id="sort_news">
+                  <option value="date_desc">Date (new - old)</option>
+                  <option value="date_asc">Date (old - new)</option>
+                  <option value="title_asc">Title (A - Z)</option>
+                  <option value="title_desc">Title (Z - A)</option>
+                </select>
+              </div>
+            </div> -->
+          </div>
+          <div class="active-filters-wrapper">
+            <div class="flex-row align-center">
+              <span class="prefix">Chosen filters:</span>
+              <div class="active-filters">
+              </div>
+              <span class="flex-spacer"></span>
+              <a href="/news/" class="clear-active-filters" title="Remove all filters"><i
+                  class="fa fa-left fa-trash-o"></i>Remove all filters</a>
+            </div>
+          </div>
+        </div>
+        <div class="post-wrapper">
+
+          {{ range (.Paginator 10).Pages  }}
+
+          <a href="{{ .URL }}"
+            class="post post-horizontal"
+            title="{{ .Title }}">
+            <div class="post-img">
+              <img
+                src="{{ .Params.featured_image}}"
+                alt="Infinitas Learning appoints Taco Morelisse as new Chief Executive Officer"
+                data-pagespeed-url-hash="2020350962" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">{{ .Title}}</h3>
+              <p class="post-meta">Posted on {{ .Date.Format "January 1, 2018" }}</p>
+              <p class="post-excerpt">{{ .Summary}}</p>
+            </div>
+          </a> 
+          {{ end }}
+        </div>
+        <div class="pagination">
+          {{- partial "pagination.html" . -}}
+        </div>
+        
+      </div>
+    </div>
+
+
+
+  </div>
+
+</section>
+
+{{end}}

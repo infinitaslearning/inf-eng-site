@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+<section class="page-section">
+  <div class="container">
+    <div class="section-title narrow">
+      <h2 class="title">Welcome to Infinitas Engineering</h2>
+      <p class="description">yada yada</p>
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="section-title narrow">
+      <h2 class="title">Latest posts</h2>
+      <p class="subtitle">Get to know everything about our engineering department</p>
+    </div>
+    <div class="post-wrapper">
+
+      {{ $mainSections := .Site.Params.mainSections | default (slice "blog") }}
+      {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+      {{ $section_count := len $section }}
+
+      {{ if ge $section_count 1 }}
+      {{ $section_name := index (.Site.Params.mainSections) 0 }}
+      {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+      <section>
+        <div class="flex-row">
+          {{ range (first $n_posts $section) }}
+            {{ partial "summary-with-image.html" . }}
+          {{ end }}
+        </div>
+      </section>
+
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,38 @@
+{{ define "main"}}
+
+{{ $featured_image := (trim .Params.featured_image "/") | absURL }}
+<section class="single-post-main bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-lg-9 main">
+        <div class="section-title narrow">
+          <h1 class="title">{{.Title}}</h1>
+        </div>
+        <p class="post-meta">Posted on {{ .Date.Format "November 20, 2018"}}</p>
+        <div class="contentwrapper narrow">
+            {{ .Content }}
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 side">
+        <div class="visible-xs visible-sm spacer spacer50"></div>
+        <div class="sticky-widgets-wrapper">
+          <aside class="widget-wrapper affix-top" style="width: auto;">
+            <div class="widget widget-image">
+              <a href="{{ $featured_image }}"
+                class="lightbox" title="{{ .Title}}">
+                <img
+                  src="{{$featured_image}}"
+                  alt="Image for {{ .Title}}"
+                  data-pagespeed-url-hash="2004679591"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </a>
+            </div>
+            
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{end}}
