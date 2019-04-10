@@ -2,7 +2,7 @@
 title: "Adipisicing labore cillum ad nulla ea non est voluptate ut laboris deserunt exercitation."
 date: 2018-01-25T11:23:17+01:00
 draft: true
-featured_image: "https://www.infinitaslearning.com/wp-content/uploads/2018/01/xMechiel-Wilbrink-Pasfoto-400x225.jpg.pagespeed.ic.zOpviZU59X.webp"
+featured_image: "blog/MechielWilbrink-1-300x300.png"
 draft: true
 ---
 

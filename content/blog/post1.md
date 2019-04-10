@@ -1,7 +1,7 @@
 ---
 title: "Sint aliquip aute cillum esse consectetur."
 date: 2018-09-20T13:47:46+01:00
-featured_image: "https://www.infinitaslearning.com/wp-content/uploads/2019/01/xTaco-Morelisse_sq-1-400x225.jpg.pagespeed.ic.9m_orIkmhS.webp"
+featured_image: "blog/taco_morelisse.webp"
 draft: true
 ---
 
