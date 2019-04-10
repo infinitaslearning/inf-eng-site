@@ -42,7 +42,7 @@
             title="{{ .Title }}">
             <div class="post-img">
               <img
-                src="{{ .Params.featured_image}}"
+                src="{{ .Params.featured_image | absURL}}"
                 alt="Infinitas Learning appoints Taco Morelisse as new Chief Executive Officer">
             </div>
             <div class="post-content">
