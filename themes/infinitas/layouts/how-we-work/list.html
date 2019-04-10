@@ -19,7 +19,23 @@
     <div class="contentwrapper narrow">
       {{ .Content }}
     </div>
-    
+    <div class="subpage-tiles">
+        <div class="flex-row">
+      
+            {{ range sort (where .Data.Pages "Section" "how-we-work") "Params.order" }}
+            {{ $featured_image := (trim .Params.featured_image "/") | absURL }}
+            <div class="flex-col">
+              <a href="{{ .URL }} " class="subpage-tile" title="Executive Team"
+              style="background-image:url({{$featured_image}})">
+              <div class="tile-inner">
+                <h3 class="tile-title">{{ .Title }}</h3>
+              </div>
+            </a>
+          </div>
+          
+          {{ end }}
+        </div>
+      </div>
   </div>
 </section>
 
