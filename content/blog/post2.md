@@ -1,7 +1,7 @@
 ---
 title: "Esse reprehenderit cillum anim duis esse sunt Lorem reprehenderit."
 date: 2018-09-10T15:24:07+01:00
-featured_image: "https://www.infinitaslearning.com/wp-content/uploads/2018/09/xAnnaSettman-400x225.png.pagespeed.ic.65bBk95t7A.webp"
+featured_image: "blog/AnnaSettman-300x300.png"
 draft: true
 ---
 

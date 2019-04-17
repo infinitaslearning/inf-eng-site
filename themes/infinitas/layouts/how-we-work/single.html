@@ -1,0 +1,27 @@
+{{ define "main"}}
+
+
+{{ $featured_image := (trim .Params.featured_image "/") | absURL }}
+<section class="hero hero-page">
+  <div class="hero-background" style="background-image:url({{$featured_image}});background-position:center">
+  </div>
+  <div class="hero-inner">
+    <div class="container">
+      <h1 class="hero-title">{{ .Title }}</h1>
+      <!-- <h2 class="hero-subtitle">{{ .Description}}</h2> -->
+    </div>
+  </div>
+</section>
+
+
+<section class="page-section bg-grey">
+  <div class="container">
+    <div class="contentwrapper narrow">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+
+
+{{end}}

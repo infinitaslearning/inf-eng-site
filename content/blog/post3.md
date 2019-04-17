@@ -1,7 +1,7 @@
 ---
 title: "Eiusmod ea amet enim consequat id reprehenderit aute est consequat enim qui qui commodo Lorem."
 date: 2018-09-10T10:45:41+01:00
-featured_image: "https://www.infinitaslearning.com/wp-content/uploads/2018/09/xEWalvisch_040918_-CliftonCunningham_200-400x225.jpg.pagespeed.ic.7DYiFIAFSt.webp"
+featured_image: "blog/EWalvisch_040918_-CliftonCunningham_200-300x300.jpg"
 draft: true
 ---
 
